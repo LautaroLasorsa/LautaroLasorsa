@@ -19,7 +19,7 @@ jupyter = f"""<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icon
 tensorflow = f"""<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original-wordmark.svg" height={alto}/>"""
 IoT     = ""
 cuda    = ""
-latex   = f"""<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" height={alto}/>"""
+latex   = f"""<img src="https://skillicons.dev/icons?i=latex" height={alto}/>"""
 github_actions = f"""<img src="https://skillicons.dev/icons?i=githubactions" height={alto}/>"""
 
 sections = {}
