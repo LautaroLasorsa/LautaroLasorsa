@@ -1,7 +1,8 @@
 <div >
-    <h1 style="display: flex; justify-content: space-between;"> Lautaro Lasorsa 
-    <a ref="https://www.linkedin.com/in/lautaro-lasorsa/" > <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height=50 > </a>
+    <a ref="https://www.linkedin.com/in/lautaro-lasorsa/" >  <h1 style="display: flex; justify-content: space-between;"> Lautaro Lasorsa 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height=50 >
     </h1>
+     </a>
 </div>
 
 <h2> Education </h2>
