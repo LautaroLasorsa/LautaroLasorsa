@@ -1,48 +1,25 @@
 <div >
     <h1 style="display: flex; justify-content: space-between;"> Lautaro Lasorsa 
     <a href="https://www.linkedin.com/in/lautaro-lasorsa/" > <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height=40 > </a>
+    <a href="./CV/LautaroLasorsa_CV.pdf"> CV </a>
     </h1>
 </div>
 
-<h2> Education </h2>
+<h1> Competitive Programming </h1>
 
-<h3> Universidad de Buenos Aires (UBA) </h3>
+* [Usefull competitive programming commands](https://github.com/LautaroLasorsa/competitive-programming-suite)
+* [Kotlin Notebook for ICPC teams](https://github.com/LautaroLasorsa/notebook-unlam-kotlin)
+* [Python Notebook for ICPC teams](https://github.com/LautaroLasorsa/notebook-unlam-python)
+* [OIA UNLaM Course material](https://github.com/LautaroLasorsa/OIA-UNLaM) 
+* [Solutions to some CSES problems](https://github.com/LautaroLasorsa/CSES/tree/main)
 
-<h3> Licenciature in Data Science (Bachelor + Master): 9,09 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-March 2019 - December 2024 </h3>
+<h1> Colleague Works </h1>
 
+* [Licenciature Tesis (10/10) _Propuesta de mejora del bienestar económico_](https://github.com/LautaroLasorsa/Tesis-LCD-Lasorsa)
+* [Instrumental Variable Quantile Regression module in R](https://github.com/LautaroLasorsa/IVQR)
 
+ <h1> Research (Published) </h1>
 
-<div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg" height=75 />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" height=75/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original-wordmark.svg" height=75/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" height=75/>
-</div>
-
-<b> Relevant Knowledge: </b> Algebra, statistics, interpretable models, cloud providers, operative research, econometrics, Python.
-
-<h3> Universidad Nacional de La Matanza (UNLaM) </h3>
-
-<h3> Engineering in Informatics (Bachelor + Master) : 8,46 (partial) &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-March 2019 - December 2027 (expected) </h3>
-
-<div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"  height=75 />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg" height=75/>
-</div>
-
-<b> Relevant Knowledge: </b> Bash, good software engineering practices, cryptography, software requirements, C++, Bash.
-
-<h2> Most relevnt experience </h2>
-
-<h3> Composable Finance (Remote) </h3>
-<h3> Cryptography Consultant April 2023 - July 2024 </h3>
-
-* Developed solutions using Zero Knowledge (ZK) over Gnark.
-* Implemented the verification of digital signatures over the curve ED-25519 emulating the arithmetic.
-* Learned the technology during the job.
-* Also developed a solution to optimize transactions using graph algorithms and Python.
-
-<h3> Universidad Nacional de La Matanza (UNLaM) </h3>
-<h3> Class Assistant March 2020 - Present</h3>
+* [_Estudio comparativo de diferentes modelos de aprendizaje automático y análisis de la robustez de dichos modelos frente a fallas provocadas en los sensores en el caso de detección de incendios para ser aplicados a dispositivos de computación de borde_ @ CONAIISI 2023](https://github.com/LautaroLasorsa/CONAIISI-2023/tree/main)
+* [_Detección de fallas en sensores IoT mediante Machine Learning_ @ CONAIISI 2024](https://github.com/LautaroLasorsa/CONAIISI-2024/tree/master)
+* [_Estudio de tolerancia a errores en sensores empleados para detección de ocupación de habitantes de un recinto empleando técnicas de aprendizaje automático_ @ CONAIISI 2024](https://github.com/carlucho1/CONAIISI-2024-2/tree/main)
