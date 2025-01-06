@@ -6,7 +6,7 @@ text = """<div >
 </div>"""
 
 alto    = 50
-pandas  = f"""<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" height={alto}/>"""
+pandas  = f"""<img src="https://go-skill-icons.vercel.app/api/icons?i=pandas" height={alto}/>"""
 numpy   = f"""<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-plain-wordmark.svg" height={alto}/>""" 
 python  = f"""<img src="https://skillicons.dev/icons?i=py" height={alto}/>"""
 cpp     = f"""<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height={alto}/>""" 
@@ -18,7 +18,7 @@ matplotlib = f"""<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/i
 jupyter = f"""<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" height={alto}/>"""
 tensorflow = f"""<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original-wordmark.svg" height={alto}/>"""
 IoT     = ""
-cuda    = ""
+cuda    = f"""<img src="https://go-skill-icons.vercel.app/api/icons?i=cuda" height={alto}/>"""	
 latex   = f"""<img src="https://skillicons.dev/icons?i=latex" height={alto}/>"""
 github_actions = f"""<img src="https://skillicons.dev/icons?i=githubactions" height={alto}/>"""
 
