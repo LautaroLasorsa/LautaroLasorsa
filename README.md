@@ -1,18 +1,20 @@
 <div >
-    <a ref="https://www.linkedin.com/in/lautaro-lasorsa/" >  <h1 style="display: flex; justify-content: space-between;"> Lautaro Lasorsa 
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height=50 >
+    <h1 style="display: flex; justify-content: space-between;"> Lautaro Lasorsa 
+    <a href="https://www.linkedin.com/in/lautaro-lasorsa/" > <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height=50 > </a>
     </h1>
-     </a>
 </div>
 
 <h2> Education </h2>
 
 <h3> Universidad de Buenos Aires (UBA) </h3>
 
-<b style="display: flex; justify-content: space-between;"> 
-    <span> Licenciature in Data Science (Bachelor + Master): 9,09 </span>
-    <span> March 2019 - December 2024 </span>
-</b>
+<table>
+  <tr>
+    <td>Licenciature in Data Science (Bachelor + Master): 9,09</td>
+    <td align="right">March 2019 - December 2024</td>
+  </tr>
+</table>
+
 
 <div style="display: flex; justify-content: space-around;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg" height=75 />
