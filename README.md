@@ -13,7 +13,7 @@
 * [OIA UNLaM Course material](https://github.com/LautaroLasorsa/OIA-UNLaM) 
 * [Solutions to some CSES problems](https://github.com/LautaroLasorsa/CSES/tree/main)
 
-<h1> Colleague Works </h1>
+<h1> University Assignments </h1>
 
 * [Licenciature Tesis (10/10) _Propuesta de mejora del bienestar económico_](https://github.com/LautaroLasorsa/Tesis-LCD-Lasorsa)
 * [Instrumental Variable Quantile Regression module in R](https://github.com/LautaroLasorsa/IVQR)
