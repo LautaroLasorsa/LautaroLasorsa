@@ -21,7 +21,7 @@ IoT     = ""
 cuda    = f"""<img src="https://go-skill-icons.vercel.app/api/icons?i=cuda" height={alto}/>"""	
 latex   = f"""<img src="https://skillicons.dev/icons?i=latex" height={alto}/>"""
 github_actions = f"""<img src="https://skillicons.dev/icons?i=githubactions" height={alto}/>"""
-
+pytorch = f"""<img src="https://skillicons.dev/icons?i=pytorch" height={alto}/>"""
 sections = {}
 
 sections["Competitive Programming"] = [
@@ -57,6 +57,11 @@ sections["University Assigments"] = [
         "Verify Small World Hypothesis in social networks",
         "https://github.com/LautaroLasorsa/TP-FINAL-SMALL-WORLD",
         [python,numpy,pandas,matplotlib,jupyter]
+     ),
+     (
+         "Implementation of algorithm for the paper <i>Revisiting Link Prediction: A data perspective</i>",
+         "https://github.com/LautaroLasorsa/Implementation-of-Revisiting-Link-Prediction-A-data-perspective",
+         [python, numpy, pandas, matplotlib, jupyter, sklearn, pytorch]
      )
 ]
 
