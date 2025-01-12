@@ -52,7 +52,12 @@ sections["University Assigments"] = [
      [python,numpy,pandas,matplotlib,jupyter, cpp,cuda, latex]),
     ("Instrumental Variable Quantile Regression module in R",
      "https://github.com/LautaroLasorsa/IVQR",
-     [R])
+     [R]),
+     (
+        "Verify Small World Hypothesis in social networks",
+        "https://github.com/LautaroLasorsa/TP-FINAL-SMALL-WORLD",
+        [python,numpy,pandas,matplotlib,jupyter]
+     )
 ]
 
 sections["Research (Published)"] = [
