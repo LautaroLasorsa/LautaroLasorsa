@@ -280,12 +280,6 @@ sections["📄 Research (Published)"] = [
         [python, pytorch],
     ),
     (
-        "<i>Estudio comparativo de modelos de ML y análisis de robustez frente a fallas en sensores</i> @ CONAIISI 2023",
-        "https://github.com/LautaroLasorsa/CONAIISI-2023/tree/main",
-        "Comparative study of ML models (Random Forest, NNs) and sensor fault-tolerance for edge computing fire detection",
-        [python, tensorflow, matplotlib, numpy, pandas, jupyter],
-    ),
-    (
         "<i>Detección de fallas en sensores IoT mediante Machine Learning</i> @ CONAIISI 2024",
         "https://github.com/LautaroLasorsa/CONAIISI-2024/tree/master",
         "Fault detection and sensor anomaly classification in IoT networks using machine learning algorithms",
@@ -296,6 +290,12 @@ sections["📄 Research (Published)"] = [
         "https://github.com/carlucho1/CONAIISI-2024-2/tree/main",
         "Analysis of error tolerance in occupancy-detection sensor networks using supervised learning techniques",
         [python, sklearn, matplotlib, numpy, pandas, jupyter],
+    ),
+    (
+        "<i>Estudio comparativo de modelos de ML y análisis de robustez frente a fallas en sensores</i> @ CONAIISI 2023",
+        "https://github.com/LautaroLasorsa/CONAIISI-2023/tree/main",
+        "Comparative study of ML models (Random Forest, NNs) and sensor fault-tolerance for edge computing fire detection",
+        [python, tensorflow, matplotlib, numpy, pandas, jupyter],
     ),
 ]
 
