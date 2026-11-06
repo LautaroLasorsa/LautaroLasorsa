@@ -102,7 +102,7 @@ header = """<div align="center">
   <p>
     <b>AI / Machine Learning Engineer</b> · <b>3x ICPC World Finalist (Latam Champion)</b> · <b>B.S./M.S. in Data Science (UBA)</b>
   </p>
-  <p style="margin: 8px 0 6px 0;">
+  <p style="margin: 8px 0 16px 0;">
     <a href="https://www.linkedin.com/in/lautaro-lasorsa/">
       <img src="./assets/badge-linkedin.svg" height="28" alt="LinkedIn" title="LinkedIn: Lautaro Lasorsa"/>
     </a>
@@ -111,31 +111,9 @@ header = """<div align="center">
       <img src="./assets/badge-cv.svg" height="28" alt="Curriculum Vitae" title="Download Curriculum Vitae (PDF)"/>
     </a>
   </p>
-  <p style="margin: 0 0 6px 0;">
-    <a href="https://codeforces.com/profile/CodigoL">
-      <img src="./assets/badge-codeforces.svg" height="28" alt="Codeforces" title="Codeforces Profile: CodigoL (Candidate Master)"/>
-    </a>
-    &nbsp;
-    <a href="https://icpc.global/ICPCID/DV1XEVUDPG8J">
-      <img src="./assets/badge-icpc.svg" height="28" alt="ICPC Profile" title="ICPC Global Profile (3x WF Latin America Champion, 1x Bronze Medal)"/>
-    </a>
-    &nbsp;
-    <a href="https://stats.ioinformatics.org/people/6145">
-      <img src="./assets/badge-ioi.svg" height="28" alt="IOI Profile" title="International Olympiad in Informatics (2017, 2018 Bronze Medal, 2019)"/>
-    </a>
-  </p>
-  <p style="margin: 0 0 16px 0;">
-    <a href="https://credentials.databricks.com/838212fa-8d2c-4e5d-b146-ba2f1af0e39d#acc.uF1sAh5D">
-      <img src="./assets/badge-databricks.svg" height="28" alt="Databricks Credential" title="Databricks Certified Data Engineer Associate (Verified Credential)"/>
-    </a>
-    &nbsp;
-    <a href="https://cert.efset.org/Pymcaz">
-      <img src="./assets/badge-efset.svg" height="28" alt="EF SET English Certificate" title="EF SET English Certificate: 76/100 C2 Proficient"/>
-    </a>
-  </p>
 </div>
 
-<table width="100%" style="width: 100%; display: table; border-collapse: separate; border-spacing: 0; margin: 16px 0 24px 0;">
+<table width="100%" style="width: 100%; display: table; border-collapse: separate; border-spacing: 0; margin: 16px 0 18px 0;">
   <tr>
     <td style="background: linear-gradient(135deg, rgba(47, 129, 247, 0.12) 0%, rgba(163, 113, 247, 0.08) 100%); border: 1px solid rgba(47, 129, 247, 0.3); border-left: 5px solid #2f81f7; border-radius: 10px; padding: 18px 22px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);">
       <p style="margin: 0 0 12px 0; font-size: 1.06em; line-height: 1.65;">
@@ -153,6 +131,31 @@ header = """<div align="center">
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <p style="margin: 8px 0 6px 0;">
+    <a href="https://codeforces.com/profile/CodigoL">
+      <img src="./assets/badge-codeforces.svg" height="28" alt="Codeforces" title="Codeforces Profile: CodigoL (Candidate Master)"/>
+    </a>
+    &nbsp;
+    <a href="https://icpc.global/ICPCID/DV1XEVUDPG8J">
+      <img src="./assets/badge-icpc.svg" height="28" alt="ICPC Profile" title="ICPC Global Profile (3x WF Latin America Champion, 1x Bronze Medal)"/>
+    </a>
+    &nbsp;
+    <a href="https://stats.ioinformatics.org/people/6145">
+      <img src="./assets/badge-ioi.svg" height="28" alt="IOI Profile" title="International Olympiad in Informatics (2017, 2018 Bronze Medal, 2019)"/>
+    </a>
+  </p>
+  <p style="margin: 0 0 24px 0;">
+    <a href="https://credentials.databricks.com/838212fa-8d2c-4e5d-b146-ba2f1af0e39d#acc.uF1sAh5D">
+      <img src="./assets/badge-databricks.svg" height="28" alt="Databricks Credential" title="Databricks Certified Data Engineer Associate (Verified Credential)"/>
+    </a>
+    &nbsp;
+    <a href="https://cert.efset.org/Pymcaz">
+      <img src="./assets/badge-efset.svg" height="28" alt="EF SET English Certificate" title="EF SET English Certificate: 76/100 C2 Proficient"/>
+    </a>
+  </p>
+</div>
 """
 
 # 4. 3-Column Work Experience Table
