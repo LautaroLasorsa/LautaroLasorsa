@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="383" height="28" viewBox="0 0 383 28">
+  <g clip-path="url(#r)">
+    <clipPath id="r">
+      <rect width="383" height="28" rx="4"/>
+    </clipPath>
+    <rect width="180" height="28" fill="#2d333b"/>
+    <rect x="180" width="203" height="28" fill="#FF3621"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">
+    <text x="90.0" y="18">DATABRICKS CERTIFIED</text>
+    <text x="281.5" y="18">DATA ENGINEER ASSOCIATE</text>
+  </g>
+</svg>

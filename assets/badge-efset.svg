@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="313" height="28" viewBox="0 0 313 28">
+  <g clip-path="url(#r)">
+    <clipPath id="r">
+      <rect width="313" height="28" rx="4"/>
+    </clipPath>
+    <rect width="133" height="28" fill="#2d333b"/>
+    <rect x="133" width="180" height="28" fill="#005B94"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">
+    <text x="66.5" y="18">EF SET ENGLISH</text>
+    <text x="223.0" y="18">76/100 C2 PROFICIENT</text>
+  </g>
+</svg>

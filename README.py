@@ -14,6 +14,42 @@ typesense_svg_content = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 
 with open("assets/typesense.svg", "w", encoding="utf-8") as f:
     f.write(typesense_svg_content)
 
+def create_badge_svg(filename: str, left_text: str, right_text: str, color: str, left_bg: str = "#2d333b"):
+    font = "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+    if not right_text:
+        w = max(32, int(len(left_text) * 7.8 + 24))
+        svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="28" viewBox="0 0 {w} 28">
+  <rect width="{w}" height="28" rx="4" fill="{color}"/>
+  <text x="{w/2:.1f}" y="18" fill="#fff" text-anchor="middle" font-family="{font}" font-size="11" font-weight="700" letter-spacing="0.8">{left_text}</text>
+</svg>"""
+    else:
+        w1 = max(32, int(len(left_text) * 7.8 + 24))
+        w2 = max(32, int(len(right_text) * 7.8 + 24))
+        w = w1 + w2
+        svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="28" viewBox="0 0 {w} 28">
+  <g clip-path="url(#r)">
+    <clipPath id="r">
+      <rect width="{w}" height="28" rx="4"/>
+    </clipPath>
+    <rect width="{w1}" height="28" fill="{left_bg}"/>
+    <rect x="{w1}" width="{w2}" height="28" fill="{color}"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="{font}" font-size="11" font-weight="700" letter-spacing="0.8">
+    <text x="{w1/2:.1f}" y="18">{left_text}</text>
+    <text x="{w1 + w2/2:.1f}" y="18">{right_text}</text>
+  </g>
+</svg>"""
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(svg)
+
+create_badge_svg("assets/badge-linkedin.svg", "LINKEDIN", "", "#0A66C2")
+create_badge_svg("assets/badge-cv.svg", "DOWNLOAD CV (PDF)", "", "#2f81f7")
+create_badge_svg("assets/badge-codeforces.svg", "CODEFORCES", "CODIGOL (CANDIDATE MASTER)", "#1F8ACB")
+create_badge_svg("assets/badge-icpc.svg", "ICPC", "3X WF LATIN AMERICA CHAMPION (1X BRONZE MEDAL)", "#e11d48")
+create_badge_svg("assets/badge-ioi.svg", "IOI", "3X PARTICIPANT (1X BRONZE MEDAL)", "#d97706")
+create_badge_svg("assets/badge-databricks.svg", "DATABRICKS CERTIFIED", "DATA ENGINEER ASSOCIATE", "#FF3621")
+create_badge_svg("assets/badge-efset.svg", "EF SET ENGLISH", "76/100 C2 PROFICIENT", "#005B94")
+
 
 # 2. Unified Icon System (alto = 38)
 alto = 38
@@ -68,33 +104,33 @@ header = """<div align="center">
   </p>
   <p style="margin: 8px 0 6px 0;">
     <a href="https://www.linkedin.com/in/lautaro-lasorsa/">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" title="LinkedIn: Lautaro Lasorsa"/>
+      <img src="./assets/badge-linkedin.svg" height="28" alt="LinkedIn" title="LinkedIn: Lautaro Lasorsa"/>
     </a>
     &nbsp;
     <a href="./CV/LautaroLasorsa_CV.pdf">
-      <img src="https://img.shields.io/badge/Download_CV_(PDF)-2f81f7?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" height="28" alt="Curriculum Vitae" title="Download Curriculum Vitae (PDF)"/>
+      <img src="./assets/badge-cv.svg" height="28" alt="Curriculum Vitae" title="Download Curriculum Vitae (PDF)"/>
     </a>
   </p>
   <p style="margin: 0 0 6px 0;">
     <a href="https://codeforces.com/profile/CodigoL">
-      <img src="https://img.shields.io/badge/Codeforces-CodigoL_(Candidate_Master)-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" height="28" alt="Codeforces" title="Codeforces Profile: CodigoL (Candidate Master)"/>
+      <img src="./assets/badge-codeforces.svg" height="28" alt="Codeforces" title="Codeforces Profile: CodigoL (Candidate Master)"/>
     </a>
     &nbsp;
     <a href="https://icpc.global/ICPCID/DV1XEVUDPG8J">
-      <img src="https://img.shields.io/badge/ICPC-3x_WF_Latin_America_Champion_(1x_Bronze_Medal)-f43f5e?style=for-the-badge" height="28" alt="ICPC Profile" title="ICPC Global Profile (3x WF Latin America Champion, 2023 Bronze Medal)"/>
+      <img src="./assets/badge-icpc.svg" height="28" alt="ICPC Profile" title="ICPC Global Profile (3x WF Latin America Champion, 1x Bronze Medal)"/>
     </a>
     &nbsp;
     <a href="https://stats.ioinformatics.org/people/6145">
-      <img src="https://img.shields.io/badge/IOI-3x_Participant_(1x_Bronze_Medal)-d97706?style=for-the-badge" height="28" alt="IOI Profile" title="International Olympiad in Informatics (2017, 2018 Bronze Medal, 2019)"/>
+      <img src="./assets/badge-ioi.svg" height="28" alt="IOI Profile" title="International Olympiad in Informatics (2017, 2018 Bronze Medal, 2019)"/>
     </a>
   </p>
   <p style="margin: 0 0 16px 0;">
     <a href="https://credentials.databricks.com/838212fa-8d2c-4e5d-b146-ba2f1af0e39d#acc.uF1sAh5D">
-      <img src="https://img.shields.io/badge/Databricks_Certified-Data_Engineer_Associate-FF3621?style=for-the-badge&logo=databricks&logoColor=white" height="28" alt="Databricks Credential" title="Databricks Certified Data Engineer Associate (Verified Credential)"/>
+      <img src="./assets/badge-databricks.svg" height="28" alt="Databricks Credential" title="Databricks Certified Data Engineer Associate (Verified Credential)"/>
     </a>
     &nbsp;
     <a href="https://cert.efset.org/Pymcaz">
-      <img src="https://img.shields.io/badge/EF_SET_English-76%2F100_C2_Proficient-005B94?style=for-the-badge" height="28" alt="EF SET English Certificate" title="EF SET English Certificate: 76/100 C2 Proficient"/>
+      <img src="./assets/badge-efset.svg" height="28" alt="EF SET English Certificate" title="EF SET English Certificate: 76/100 C2 Proficient"/>
     </a>
   </p>
 </div>
@@ -276,4 +312,4 @@ for title, items in sections.items():
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(text)
 
-print("Generated assets/typesense.svg and README.md successfully.")
+print("Generated assets/typesense.svg, assets/badge-*.svg, and README.md successfully.")

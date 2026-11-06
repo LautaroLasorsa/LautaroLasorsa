@@ -5,33 +5,33 @@
   </p>
   <p style="margin: 8px 0 6px 0;">
     <a href="https://www.linkedin.com/in/lautaro-lasorsa/">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" title="LinkedIn: Lautaro Lasorsa"/>
+      <img src="./assets/badge-linkedin.svg" height="28" alt="LinkedIn" title="LinkedIn: Lautaro Lasorsa"/>
     </a>
     &nbsp;
     <a href="./CV/LautaroLasorsa_CV.pdf">
-      <img src="https://img.shields.io/badge/Download_CV_(PDF)-2f81f7?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" height="28" alt="Curriculum Vitae" title="Download Curriculum Vitae (PDF)"/>
+      <img src="./assets/badge-cv.svg" height="28" alt="Curriculum Vitae" title="Download Curriculum Vitae (PDF)"/>
     </a>
   </p>
   <p style="margin: 0 0 6px 0;">
     <a href="https://codeforces.com/profile/CodigoL">
-      <img src="https://img.shields.io/badge/Codeforces-CodigoL_(Candidate_Master)-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" height="28" alt="Codeforces" title="Codeforces Profile: CodigoL (Candidate Master)"/>
+      <img src="./assets/badge-codeforces.svg" height="28" alt="Codeforces" title="Codeforces Profile: CodigoL (Candidate Master)"/>
     </a>
     &nbsp;
     <a href="https://icpc.global/ICPCID/DV1XEVUDPG8J">
-      <img src="https://img.shields.io/badge/ICPC-3x_WF_Latin_America_Champion_(1x_Bronze_Medal)-f43f5e?style=for-the-badge" height="28" alt="ICPC Profile" title="ICPC Global Profile (3x WF Latin America Champion, 2023 Bronze Medal)"/>
+      <img src="./assets/badge-icpc.svg" height="28" alt="ICPC Profile" title="ICPC Global Profile (3x WF Latin America Champion, 1x Bronze Medal)"/>
     </a>
     &nbsp;
     <a href="https://stats.ioinformatics.org/people/6145">
-      <img src="https://img.shields.io/badge/IOI-3x_Participant_(1x_Bronze_Medal)-d97706?style=for-the-badge" height="28" alt="IOI Profile" title="International Olympiad in Informatics (2017, 2018 Bronze Medal, 2019)"/>
+      <img src="./assets/badge-ioi.svg" height="28" alt="IOI Profile" title="International Olympiad in Informatics (2017, 2018 Bronze Medal, 2019)"/>
     </a>
   </p>
   <p style="margin: 0 0 16px 0;">
     <a href="https://credentials.databricks.com/838212fa-8d2c-4e5d-b146-ba2f1af0e39d#acc.uF1sAh5D">
-      <img src="https://img.shields.io/badge/Databricks_Certified-Data_Engineer_Associate-FF3621?style=for-the-badge&logo=databricks&logoColor=white" height="28" alt="Databricks Credential" title="Databricks Certified Data Engineer Associate (Verified Credential)"/>
+      <img src="./assets/badge-databricks.svg" height="28" alt="Databricks Credential" title="Databricks Certified Data Engineer Associate (Verified Credential)"/>
     </a>
     &nbsp;
     <a href="https://cert.efset.org/Pymcaz">
-      <img src="https://img.shields.io/badge/EF_SET_English-76%2F100_C2_Proficient-005B94?style=for-the-badge" height="28" alt="EF SET English Certificate" title="EF SET English Certificate: 76/100 C2 Proficient"/>
+      <img src="./assets/badge-efset.svg" height="28" alt="EF SET English Certificate" title="EF SET English Certificate: 76/100 C2 Proficient"/>
     </a>
   </p>
 </div>
