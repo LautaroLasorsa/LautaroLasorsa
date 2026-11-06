@@ -274,7 +274,7 @@ sections["🎓 University Assignments"] = [
 
 sections["📄 Research (Published)"] = [
     (
-        "<i>Modelos de Lenguaje Pequeños para la Interpretación de Comandos de Domótica en Español: Evaluación Automática de Doce Modelos Sub-2B</i> @ CACIC 2024",
+        "<i>Modelos de Lenguaje Pequeños para la Interpretación de Comandos de Domótica en Español: Evaluación Automática de Doce Modelos Sub-2B</i> @ CACIC 2026",
         "https://www.frcu.utn.edu.ar/images/CACIC/actas.pdf#page=169",
         "Evaluation of 12 Sub-2B Small Language Models (SLMs) for Spanish smart-home voice command interpretation",
         [python, pytorch],
