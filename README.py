@@ -11,8 +11,18 @@ typesense_svg_content = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 
   <line x1="100" y1="86" x2="114" y2="100" stroke="#FF0055" stroke-width="9" stroke-linecap="round"/>
 </svg>"""
 
+llms_svg_content = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="26" fill="#181825"/>
+  <rect x="2" y="2" width="124" height="124" rx="24" fill="none" stroke="#6366f1" stroke-width="4" stroke-opacity="0.8"/>
+  <text x="64" y="68" fill="#c7d2fe" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif" font-size="34" font-weight="900" text-anchor="middle" letter-spacing="1">LLMs</text>
+  <text x="64" y="98" fill="#818cf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0.5">SLMs</text>
+</svg>"""
+
 with open("assets/typesense.svg", "w", encoding="utf-8") as f:
     f.write(typesense_svg_content)
+
+with open("assets/llms.svg", "w", encoding="utf-8") as f:
+    f.write(llms_svg_content)
 
 def create_badge_svg(filename: str, left_text: str, right_text: str, color: str, left_bg: str = "#2d333b"):
     font = "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
@@ -92,6 +102,7 @@ bigquery = icon("https://cdn.simpleicons.org/googlebigquery", "Google BigQuery")
 gcp = icon("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg", "Google Cloud Platform")
 databricks = icon("https://go-skill-icons.vercel.app/api/icons?i=databricks", "Databricks")
 typesense = icon("./assets/typesense.svg", "Typesense")
+llms = icon("./assets/llms.svg", "LLMs / SLMs")
 go = icon("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg", "Go (Gnark)")
 postgresql = icon("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg", "SQL / PostgreSQL")
 
@@ -277,7 +288,7 @@ sections["📄 Research (Published)"] = [
         "<i>Modelos de Lenguaje Pequeños para la Interpretación de Comandos de Domótica en Español: Evaluación Automática de Doce Modelos Sub-2B</i> @ CACIC 2026",
         "https://www.frcu.utn.edu.ar/images/CACIC/actas.pdf#page=169",
         "Evaluation of 12 Sub-2B Small Language Models (SLMs) for Spanish smart-home voice command interpretation",
-        [python, pytorch],
+        [python, llms],
     ),
     (
         "<i>Detección de fallas en sensores IoT mediante Machine Learning</i> @ CONAIISI 2024",
