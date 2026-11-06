@@ -103,6 +103,7 @@ gcp = icon("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googleclou
 databricks = icon("https://go-skill-icons.vercel.app/api/icons?i=databricks", "Databricks")
 typesense = icon("./assets/typesense.svg", "Typesense")
 llms = icon("./assets/llms.svg", "LLMs / SLMs")
+ollama = icon("https://go-skill-icons.vercel.app/api/icons?i=ollama", "Ollama")
 go = icon("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg", "Go (Gnark)")
 postgresql = icon("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg", "SQL / PostgreSQL")
 
@@ -288,7 +289,7 @@ sections["📄 Research (Published)"] = [
         "<i>Modelos de Lenguaje Pequeños para la Interpretación de Comandos de Domótica en Español: Evaluación Automática de Doce Modelos Sub-2B</i> @ CACIC 2026",
         "https://www.frcu.utn.edu.ar/images/CACIC/actas.pdf#page=169",
         "Evaluation of 12 Sub-2B Small Language Models (SLMs) for Spanish smart-home voice command interpretation",
-        [python, llms],
+        [python, llms, ollama, docker],
     ),
     (
         "<i>Detección de fallas en sensores IoT mediante Machine Learning</i> @ CONAIISI 2024",
