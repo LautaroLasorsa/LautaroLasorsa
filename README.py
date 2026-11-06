@@ -274,6 +274,12 @@ sections["🎓 University Assignments"] = [
 
 sections["📄 Research (Published)"] = [
     (
+        "<i>Modelos de Lenguaje Pequeños para la Interpretación de Comandos de Domótica en Español: Evaluación Automática de Doce Modelos Sub-2B</i> @ CACIC 2024",
+        "https://www.frcu.utn.edu.ar/images/CACIC/actas.pdf#page=169",
+        "Evaluation of 12 Sub-2B Small Language Models (SLMs) for Spanish smart-home voice command interpretation",
+        [python, pytorch],
+    ),
+    (
         "<i>Estudio comparativo de modelos de ML y análisis de robustez frente a fallas en sensores</i> @ CONAIISI 2023",
         "https://github.com/LautaroLasorsa/CONAIISI-2023/tree/main",
         "Comparative study of ML models (Random Forest, NNs) and sensor fault-tolerance for edge computing fire detection",
